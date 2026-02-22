@@ -5,6 +5,7 @@
 #include <fstream>
 #include <iomanip>
 #include "nodedata.h"
+#include "constants.h"
 
 // Authors: Destiny Rebman and Parisa Soltanian
 // Class GraphM implements Dijkstra's shortest path algorithm
@@ -12,8 +13,8 @@
 // computes shortest paths between all node pairs, and displays
 // the shortest paths and distances.
 
-const int MAXNODES = 101;   // Maximum number of nodes supported
-const int INF = 999999;     // Representation of "infinity" for no path
+//const int MAXNODES = 101;   // Maximum number of nodes supported
+//const int INF = 999999;     // Representation of "infinity" for no path
 
 class GraphM {
 public:

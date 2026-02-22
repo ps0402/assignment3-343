@@ -4,12 +4,14 @@
 #include <iostream>
 #include <fstream>
 #include "nodedata.h"
+#include "constants.h"
+
 
 // Authors: Destiny Rebman and Parisa Soltanian
 // GraphL class implements Depth-First Search using adjacency lists
 // Supports multiple graphs and prints DFS ordering starting at Node 1
 
-const int MAXNODES = 101;
+//const int MAXNODES = 101;
 
 class GraphL {
 private:
